@@ -234,7 +234,7 @@ Here:
 
 ---
 
-### Common Use Cases of Closures
+#### Common Use Cases of Closures
 
 1. **Data Privacy**
    Closures allow you to create private variables, as seen in the "Private Variables" example above.
