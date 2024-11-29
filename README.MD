@@ -75,3 +75,6 @@ Congratulations on completing the course! Here are some additional resources to 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [JavaScript.info](https://javascript.info)
 - [FreeCodeCamp](https://www.freecodecamp.org)
+- [Dom Specification](https://dom.spec.whatwg.org)
+- [CSSOM specification](https://www.w3.org/TR/cssom-1/)
+- [HTML specification](https://spec.whatwg.org/)
