@@ -54,9 +54,13 @@ This course tries to cater for many types of learners:
 
 6. [Module 6: DOM Manipulation](#module-5-dom-manipulation)
 
-   - [Selecting Elements](#selecting-elements)
+   - [Browser Environments and Specs](#browser-environments-and-specs)
+   - [Dom](#dom)
+   - [Elements and Node](#elements-and-node)
+   - [Attributes and Properties](#attributes-and-properties)
    - [Event Listeners](#event-listeners)
-   - [Creating and Modifying Elements](#creating-and-modifying-elements)
+   - [Modifying Documents with JS](#modifying-documents-with-js)
+   - [Style and Classes](#style-and-classes)
 
 7. [Module 7: Projects](#projects)
 
