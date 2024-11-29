@@ -8,7 +8,7 @@ The `Number` object in JavaScript provides various methods for working with numb
 
 ---
 
-### 1. `Number.isFinite()`
+#### 1. `Number.isFinite()`
 
 Checks whether a value is a finite number.
 
@@ -20,7 +20,7 @@ console.log(Number.isFinite("25")); // false
 
 ---
 
-### 2. `Number.isInteger()`
+#### 2. `Number.isInteger()`
 
 Determines whether a value is an integer.
 
@@ -32,7 +32,7 @@ console.log(Number.isInteger("42")); // false
 
 ---
 
-### 3. `Number.isNaN()`
+#### 3. `Number.isNaN()`
 
 Checks if the value is `NaN` (Not-a-Number).
 
@@ -44,7 +44,7 @@ console.log(Number.isNaN("NaN")); // false
 
 ---
 
-### 4. `Number.isSafeInteger()`
+#### 4. `Number.isSafeInteger()`
 
 Checks if the value is a safe integer (within the safe range).
 
@@ -56,7 +56,7 @@ console.log(Number.isSafeInteger(42.5)); // false
 
 ---
 
-### 5. `Number.parseFloat()`
+#### 5. `Number.parseFloat()`
 
 Parses a string and converts it into a floating-point number.
 
@@ -68,7 +68,7 @@ console.log(Number.parseFloat("abc")); // NaN
 
 ---
 
-### 6. `Number.parseInt()`
+#### 6. `Number.parseInt()`
 
 Parses a string and converts it into an integer.
 
@@ -80,7 +80,7 @@ console.log(Number.parseInt("abc")); // NaN
 
 ---
 
-### 7. `Number.toFixed()`
+#### 7. `Number.toFixed()`
 
 Formats a number using fixed-point notation.
 
@@ -93,7 +93,7 @@ console.log(num.toFixed(5)); // "3.14159"
 
 ---
 
-### 8. `Number.toExponential()`
+#### 8. `Number.toExponential()`
 
 Returns the string representation of a number in exponential notation.
 
@@ -105,7 +105,7 @@ console.log(num.toExponential(0)); // "1e+5"
 
 ---
 
-### 9. `Number.toLocaleString()`
+#### 9. `Number.toLocaleString()`
 
 Formats the number according to the locale-specific settings.
 
@@ -117,7 +117,7 @@ console.log(num.toLocaleString("de-DE")); // "123.456,789"
 
 ---
 
-### 10. `Number.toPrecision()`
+#### 10. `Number.toPrecision()`
 
 Returns a string representation of a number to a specified precision.
 
@@ -135,7 +135,7 @@ The `String` object in JavaScript provides numerous methods for working with and
 
 ---
 
-### 1. `charAt()`
+#### 1. `charAt()`
 
 Returns the character at the specified index.
 
@@ -146,7 +146,7 @@ console.log(str.charAt(1)); // "e"
 
 ---
 
-### 2. `charCodeAt()`
+#### 2. `charCodeAt()`
 
 Returns the Unicode value of the character at the specified index.
 
@@ -157,7 +157,7 @@ console.log(str.charCodeAt(0)); // 65
 
 ---
 
-### 3. `concat()`
+#### 3. `concat()`
 
 Combines two or more strings and returns a new string.
 
@@ -169,7 +169,7 @@ console.log(str1.concat(" ", str2)); // "Hello World"
 
 ---
 
-### 4. `includes()`
+#### 4. `includes()`
 
 Checks if a string contains a specified substring.
 
@@ -181,7 +181,7 @@ console.log(str.includes("script")); // false (case-sensitive)
 
 ---
 
-### 5. `endsWith()`
+#### 5. `endsWith()`
 
 Checks if a string ends with a specified substring.
 
@@ -193,7 +193,7 @@ console.log(str.endsWith("world")); // false
 
 ---
 
-### 6. `indexOf()`
+#### 6. `indexOf()`
 
 Returns the index of the first occurrence of a specified value, or -1 if not found.
 
@@ -205,7 +205,7 @@ console.log(str.indexOf("z")); // -1
 
 ---
 
-### 7. `lastIndexOf()`
+#### 7. `lastIndexOf()`
 
 Returns the index of the last occurrence of a specified value.
 
@@ -216,7 +216,7 @@ console.log(str.lastIndexOf("o")); // 7
 
 ---
 
-### 8. `localeCompare()`
+#### 8. `localeCompare()`
 
 Compares two strings in the current locale.
 
@@ -229,7 +229,7 @@ console.log(str2.localeCompare(str1)); // 1 (after)
 
 ---
 
-### 9. `match()`
+#### 9. `match()`
 
 Searches for a match using a regular expression and returns an array.
 
@@ -240,7 +240,7 @@ console.log(str.match(/ain/g)); // ["ain", "ain"]
 
 ---
 
-### 10. `repeat()`
+#### 10. `repeat()`
 
 Returns a new string that repeats the original string a specified number of times.
 
@@ -251,7 +251,7 @@ console.log(str.repeat(3)); // "HiHiHi"
 
 ---
 
-### 11. `replace()`
+#### 11. `replace()`
 
 Replaces a substring or matches with a new string.
 
@@ -262,7 +262,7 @@ console.log(str.replace("World", "JavaScript")); // "Hello JavaScript"
 
 ---
 
-### 12. `search()`
+#### 12. `search()`
 
 Searches for a match using a regular expression and returns the index of the first match.
 
@@ -273,7 +273,7 @@ console.log(str.search(/ain/)); // 5
 
 ---
 
-### 13. `slice()`
+#### 13. `slice()`
 
 Extracts a portion of a string and returns it as a new string.
 
@@ -284,7 +284,7 @@ console.log(str.slice(0, 5)); // "Hello"
 
 ---
 
-### 14. `split()`
+#### 14. `split()`
 
 Splits a string into an array based on a specified separator.
 
@@ -295,7 +295,7 @@ console.log(str.split(",")); // ["apple", "banana", "cherry"]
 
 ---
 
-### 15. `startsWith()`
+#### 15. `startsWith()`
 
 Checks if a string starts with a specified substring.
 
@@ -306,7 +306,7 @@ console.log(str.startsWith("Hello")); // true
 
 ---
 
-### 16. `substring()`
+#### 16. `substring()`
 
 Extracts characters between two specified indices.
 
@@ -317,7 +317,7 @@ console.log(str.substring(0, 5)); // "Hello"
 
 ---
 
-### 17. `toLowerCase()`
+#### 17. `toLowerCase()`
 
 Converts a string to lowercase.
 
@@ -328,7 +328,7 @@ console.log(str.toLowerCase()); // "hello"
 
 ---
 
-### 18. `toUpperCase()`
+#### 18. `toUpperCase()`
 
 Converts a string to uppercase.
 
@@ -339,7 +339,7 @@ console.log(str.toUpperCase()); // "HELLO"
 
 ---
 
-### 19. `trim()`
+#### 19. `trim()`
 
 Removes whitespace from both sides of a string.
 
@@ -350,7 +350,7 @@ console.log(str.trim()); // "Hello World"
 
 ---
 
-### 20. `toString()`
+#### 20. `toString()`
 
 Returns the string representation of the object.
 
@@ -361,13 +361,15 @@ console.log(num.toString()); // "123"
 
 ---
 
+## Non-Primitive Data Types
+
 ### `Array` Methods
 
 JavaScript arrays come with a variety of built-in methods that make it easier to manipulate and process data. Here's an overview of the most commonly used array methods, categorized based on their functionality:
 
 ---
 
-### **1. Adding/Removing Elements**
+#### **1. Adding/Removing Elements**
 
 #### **push()**
 
@@ -411,7 +413,7 @@ let first = arr.shift(); // first = 1, arr = [2, 3]
 
 ---
 
-### **2. Accessing and Iterating**
+#### **2. Accessing and Iterating**
 
 #### **forEach()**
 
@@ -470,7 +472,7 @@ arr.includes(2); // true
 
 ---
 
-### **3. Transforming Arrays**
+#### **3. Transforming Arrays**
 
 #### **slice()**
 
@@ -522,7 +524,7 @@ let str = arr.join(" "); // "Hello World"
 
 ---
 
-### **4. Searching and Sorting**
+#### **4. Searching and Sorting**
 
 #### **indexOf()**
 
@@ -564,7 +566,7 @@ arr.reverse(); // [3, 2, 1]
 
 ---
 
-### **5. Reducing and Accumulating**
+#### **5. Reducing and Accumulating**
 
 #### **reduce()**
 
@@ -586,7 +588,7 @@ let result = arr.reduceRight((acc, num) => acc + num, 0); // 6
 
 ---
 
-### **6. Other Methods**
+#### **6. Other Methods**
 
 #### **some()**
 
@@ -625,7 +627,7 @@ arr.every((num) => num > 0); // true
 
 JavaScript object methods are functions associated with objects. They allow objects to perform actions and provide a way to manipulate and interact with the object's data. Here's an overview of some commonly used object methods in JavaScript:
 
-### 1. `Object.keys(obj)`
+#### 1. `Object.keys(obj)`
 
 Returns an array of the object's own enumerable property names.
 
@@ -634,7 +636,7 @@ const user = { name: "Alice", age: 25 };
 console.log(Object.keys(user)); // Output: ['name', 'age']
 ```
 
-### 2. `Object.values(obj)`
+#### 2. `Object.values(obj)`
 
 Returns an array of the object's own enumerable property values.
 
@@ -642,7 +644,7 @@ Returns an array of the object's own enumerable property values.
 console.log(Object.values(user)); // Output: ['Alice', 25]
 ```
 
-### 3. `Object.entries(obj)`
+#### 3. `Object.entries(obj)`
 
 Returns an array of key-value pairs from the object.
 
@@ -653,7 +655,7 @@ console.log(Object.entries(user));
 
 ---
 
-### 4. `Object.assign(target, ...sources)`
+#### 4. `Object.assign(target, ...sources)`
 
 Copies properties from one or more source objects to a target object.
 
@@ -666,7 +668,7 @@ console.log(target); // Output: { a: 1, b: 2, c: 3 }
 
 ---
 
-### 5. `Object.create(proto, propertiesObject)`
+#### 5. `Object.create(proto, propertiesObject)`
 
 Creates a new object with the specified prototype and optional properties.
 
@@ -682,7 +684,7 @@ console.log(newObj.greet()); // Output: Hi!
 
 ---
 
-### 6. `Object.fromEntries(iterable)`
+#### 6. `Object.fromEntries(iterable)`
 
 Transforms a list of key-value pairs into an object.
 
@@ -746,7 +748,7 @@ console.log(customEpoch);
 
 ---
 
-### 1. **Getting Components of a Date**
+#### 1. **Getting Components of a Date**
 
 Use getter methods to retrieve parts of a date.
 
@@ -767,7 +769,7 @@ console.log(date.getTimezoneOffset()); // Output: Timezone offset in minutes
 
 ---
 
-### 2. **Setting Components of a Date**
+#### 2. **Setting Components of a Date**
 
 Use setter methods to modify parts of a date.
 
@@ -786,7 +788,7 @@ console.log(date); // Output: Adjusted date
 
 ---
 
-### 3. **Formatting Dates**
+#### 3. **Formatting Dates**
 
 The `Date` object has methods for formatting dates.
 
@@ -841,7 +843,7 @@ console.log(new Date().toUTCString()); // Output: Wed, 27 Nov 2024 08:15:30 GMT
 
 ---
 
-### 4. **Parsing Dates**
+#### 4. **Parsing Dates**
 
 The `Date` object can parse date strings.
 
@@ -865,7 +867,7 @@ console.log(utcDate); // Output: Wed Nov 27 2024 12:00:00 GMT+0000 (UTC)
 
 ---
 
-### 5. **Date Comparisons**
+#### 5. **Date Comparisons**
 
 You can compare dates using simple operators.
 
@@ -880,7 +882,7 @@ console.log(date1.getTime() === date2.getTime()); // Compare exact timestamps
 
 ---
 
-### 6. **Date Math**
+#### 6. **Date Math**
 
 You can add or subtract time using arithmetic.
 
