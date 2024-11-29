@@ -1,6 +1,6 @@
 # Module 3: Functions and Closures
 
-## 1.Normal Function
+## Function
 
 A function is a reusable block of code designed to perform a specific task. It can take inputs (parameters), perform operations, and return an output. Functions help organize code, make it reusable, and improve readability.
 
@@ -25,7 +25,7 @@ console.log(greet("Alice")); // Output: Hello, Alice!
 
 ---
 
-## 2. Arrow Function
+### Arrow Function
 
 Arrow functions, introduced in ES6, provide a shorter syntax for writing functions. They are especially useful for short operations, and their behavior differs from traditional functions in how they handle the `this` keyword (arrow functions do not have their own `this`).
 
@@ -88,7 +88,7 @@ console.log(sayHello()); // Output: Hello, World!
 
 Use arrow functions for callbacks or one-liners and traditional functions when working with objects or requiring a specific `this` context.
 
-## 3. Function Scope and Closures
+## Function Scope and Closures
 
 In JavaScript, understanding **scope** and **closures** is crucial for writing efficient and bug-free code. These concepts determine how variables are accessed and retained in your programs.
 
