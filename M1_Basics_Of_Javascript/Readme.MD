@@ -2,8 +2,11 @@
 
 ## What is JavaScript?
 
-- Brief history of JavaScript.
-- Importance of JavaScript in web development.
+JavaScript is a single-threaded asynchronous programming language. But what does it mean? What is this event loop in JavaScript that we all keep talking about?
+
+**What does it mean when we say JavaScript is single-threaded?**
+
+It means that the main thread where JavaScript code is run, runs in one line at a time manner and there is no possibility of running code in parallel.
 
 ## Setting up the Environment
 
@@ -518,70 +521,3 @@ console.log(!isAdmin); // true
 ---
 
 <br>
-
-# Module 2: Control Structures
-
-## Conditionals
-
-- `if`, `else if`, `else`.
-- Ternary operator.
-
-**Examples**
-
-```javascript
-//if
-let age = 18;
-if ((age) => 18) {
-  console.log("You are eligible to vote!");
-}
-
-//If else
-let age = 18;
-
-if (age >= 18) {
-  console.log("You are an adult.");
-} else {
-  console.log("You are a minor.");
-}
-
-//if else if else
-let age = 20;
-
-if (age < 13) {
-  console.log("You are a child.");
-} else if (age >= 13 && age < 18) {
-  console.log("You are a teenager.");
-} else {
-  console.log("You are an adult.");
-}
-```
-
-## Loops
-
-- `for`, `while`, and `do...while`.
-- Loop control: `break` and `continue`.
-
-## Switch
-
-The `switch` statement is used to perform different actions based on different conditions. It’s an alternative to using multiple `if...else if` conditions when you want to compare the same variable or expression against different values.
-
-**Examples**:
-
-```javascript
-let fruit = "apple";
-switch (fruit) {
-  case "banana":
-    console.log("This is a banana.");
-    break;
-  case "apple":
-    console.log("This is an apple.");
-    break;
-  case "orange":
-    console.log("This is an orange.");
-    break;
-  default:
-    console.log("Unknown fruit.");
-}
-```
-
----
